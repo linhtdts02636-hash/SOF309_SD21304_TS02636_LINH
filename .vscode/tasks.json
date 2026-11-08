@@ -12,6 +12,20 @@
       "problemMatcher": ["$maven"]
     },
     {
+      "label": "Run Backend Tests",
+      "type": "shell",
+      "command": "mvn test -f backend/pom.xml",
+      "group": "test",
+      "problemMatcher": ["$maven"]
+    },
+    {
+      "label": "Run Selenium UI Test",
+      "type": "shell",
+      "command": "mvn test -f backend/pom.xml -Dtest=LoginTest -DfailIfNoTests=false",
+      "group": "test",
+      "problemMatcher": ["$maven"]
+    },
+    {
       "label": "Run DevClimb (Cargo)",
       "type": "shell",
       "command": "mvn clean package cargo:run -f backend/pom.xml",

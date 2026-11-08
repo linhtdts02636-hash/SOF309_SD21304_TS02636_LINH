@@ -3,7 +3,7 @@
   "java.compile.nullAnalysis.mode": "automatic",
   "maven.executable.path": "mvn",
   "files.encoding": "UTF-8",
-  "java.home": "C:\\Program Files\\Java\\jdk-25",
+  "java.home": "C:\\Program Files\\Java\\jdk-21.0.12",
   "files.exclude": {
     "**/.classpath": true,
     "**/.project": true,
@@ -12,6 +12,6 @@
   },
   "tomcat.port": 8080,
   "tomcat.protocol": "http",
-  "tomcat.javaHome": "C:\\Program Files\\Java\\jdk-25",
+  "tomcat.javaHome": "C:\\Program Files\\Java\\jdk-21.0.12",
   "tomcat.catalinaHome": ""
 }

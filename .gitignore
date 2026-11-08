@@ -19,6 +19,10 @@ bin/
 *.docx
 *.doc
 
+# Keep assignment docs tracked despite the *.md rule above
+!docs/
+!docs/**
+
 # Certificates (security, not the prod truststore)
 *.pem
 
@@ -34,15 +38,3 @@ ca-truststore.jks
 .codegraph/
 
 constants.js
-
-# opencode config
-opencode.json
-
-persistence.xml 
-
-.impeccable/
-# impeccable live-preview server state (pid/port/token, sessions, annotations)
-.impeccable/live/
-
-# graphify knowledge graph output
-graphify-out/
