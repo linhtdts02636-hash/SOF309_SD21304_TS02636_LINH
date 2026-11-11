@@ -1,7 +1,7 @@
-=========================================
+
   DEVCLIMB
   Competitive Coding Puzzle Platform
-=========================================
+
 
 DevClimb is a web-based coding challenge platform where users solve programming
 puzzles, form teams, compete in timed contests, and earn trophies. Project
