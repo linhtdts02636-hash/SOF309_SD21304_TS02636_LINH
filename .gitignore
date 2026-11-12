@@ -14,15 +14,6 @@ target/
 .settings/
 bin/
 
-# Project docs (not code)
-*.md
-*.docx
-*.doc
-
-# Keep assignment docs tracked despite the *.md rule above
-!docs/
-!docs/**
-
 # Certificates (security, not the prod truststore)
 *.pem
 
